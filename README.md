@@ -1,6 +1,15 @@
 # Laptop Customizer
 _Starter project for React course_
 
+# Component Structure
+* index.js (stateless)
+    * app.js (statefull)
+        * Header (stateless)
+        * features (stateless)
+            * FeatureList (stateless)
+        * Cart (stateless)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
