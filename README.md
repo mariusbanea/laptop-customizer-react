@@ -1,7 +1,6 @@
 # Laptop Customizer
-_Starter project for React course_
 
-# Component Structure
+## Components Structure
 * Index.js (stateless)
     * App.js (statefull) - gets the "FEATURES" object from the index.js
         * Header (stateless)
