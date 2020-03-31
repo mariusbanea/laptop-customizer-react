@@ -3,11 +3,11 @@ _Starter project for React course_
 
 # Component Structure
 * index.js (stateless)
-    * app.js (statefull)
-        * Header (stateless)
-        * features (stateless)
-            * FeatureList (stateless)
-        * Cart (stateless)
+    * app.js (statefull) - get the "FEATURES" object from the index.js
+        * header (stateless)
+        * features (stateless) gets the "features" and the "selected" props and "handleUpdate" call back prop from the app.js
+            * feature list (stateless) gets the "features" and the "selected" props and "handleUpdate" call back prop from the features.js
+        * cart (stateless) gets the "selected" props
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
