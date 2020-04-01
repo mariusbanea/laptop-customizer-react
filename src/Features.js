@@ -1,6 +1,6 @@
 import React from 'react';
-import '../App.css';
-import FeatureList from '../FeatureList/FeatureList'
+import './App.css';
+import FeatureList from './FeatureList'
 
 
 function Features(props) {
