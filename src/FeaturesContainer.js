@@ -3,7 +3,7 @@ import './App.css';
 import FeatureList from './FeatureList'
 
 
-function Features(props) {
+function FeaturesContainer(props) {
 
         return (
             <section className="main__form">
@@ -17,4 +17,4 @@ function Features(props) {
         )
 }
 
-export default Features;
+export default FeaturesContainer;

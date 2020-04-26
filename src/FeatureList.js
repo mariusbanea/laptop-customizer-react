@@ -1,5 +1,5 @@
 import React from 'react';
-import Options from './Options'
+import FeatureItem from './FeatureItem'
 
 function FeatureList(props) {
 
@@ -11,7 +11,7 @@ function FeatureList(props) {
         const featureClass = 'feature__option ' + selectedClass;
         return (
 
-          <Options
+          <FeatureItem
             item={item}
             feature={key}
             handleUpdate={props.handleUpdate}

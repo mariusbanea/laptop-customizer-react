@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import featuresDetails from './FeatureDetails'
-import Features from './Features';
+import FeatureStore from './FeatureStore'
+import FeaturesContainer from './FeaturesContainer';
 import ShoppingCart from './ShoppingCart';
 import Header from './Header';
 
@@ -43,10 +43,10 @@ class App extends Component {
     // console.log(this.state)
     return (
       <div className="App">
-        <Header />    
+        <Header />
         <main>
-          <Features
-            features={featuresDetails}
+          <FeaturesContainer
+            features={FeatureStore}
             handleUpdate={(feature, newValue) => this.updateFeature(feature, newValue)}
             selected={this.state.selected}
           />
@@ -59,4 +59,4 @@ class App extends Component {
   }
 }
 
-export default App;  
+export default App;
