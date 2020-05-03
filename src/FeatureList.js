@@ -23,10 +23,12 @@ function FeatureList(props) {
 
       return (
         <div className="feature" key={key}>
-          <div className="feature__name">{key}</div>
-          <ul className="feature__list">
+          <legend className="feature__name">
+            <h3>{key}</h3>
+          </legend>
+          {/*<ul className="feature__list">*/}
             {options}
-          </ul>
+          {/*</ul>*/}
         </div>
       )
     });
