@@ -86,7 +86,8 @@ while keeping them available to the keyboard */
   border-color: #888;
 }
 
-.feature__option:checked + .feature__label {
+.feature__option:checked + .feature__label,
+.feature__option .feature__selected .feature__label{
   border: 0.2rem solid #0070c9;
 }
 

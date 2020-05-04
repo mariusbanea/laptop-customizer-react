@@ -10,7 +10,7 @@ export default function FeatureItem(props) {
                 id={props.key}
                 name={props.feature}
                 className={props.featureClass}
-                checked={props.item.name}
+                checked={props.item.name === props.feature}
                 onClick={e => props.handleUpdate(props.feature, props.item)}
             />
             <label htmlFor={props.key} className="feature__label">
