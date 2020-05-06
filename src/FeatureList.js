@@ -13,6 +13,7 @@ function FeatureList(props) {
 
           <FeatureItem
             item={item}
+            key={item.name}
             feature={key}
             handleUpdate={props.handleUpdate}
             featureClass={featureClass}
